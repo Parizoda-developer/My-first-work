@@ -1,0 +1,633 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* header */
+.container {
+  max-width: 86.75rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 0.5rem 0;
+  background: #ffffff;
+  box-shadow: 0rem 0.25rem 1.25rem rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.header_items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_list {
+  display: flex;
+  gap: 2.1rem;
+  list-style: none;
+}
+
+.nav_item a {
+  width: 48rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 31rem;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  /* padding: 2.5rem; */
+  color: #263238;
+  text-decoration: none;
+}
+
+.btn_link {
+  padding: 1rem 3.5rem;
+  border: 0.125rem solid #263238;
+  border-radius: 0.3rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 25rem;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #000000;
+  text-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}
+
+.btn_link:hover {
+  width: 13rem;
+  height: 4.3rem;
+  background: #263238;
+  border: 0.125rem solid #000000;
+  border-radius: 0.313rem;
+  transition: 1s ease;
+}
+
+.btn_link:hover {
+  color: #ffffff;
+}
+
+.link:hover {
+  color: rgba(38, 50, 56, 0.73);
+  transition: 1s ease;
+}
+
+/* /header */
+
+/* hero_language_section */
+.item-box_language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.learning_language_title {
+  width: 24.1rem;
+  height: 15rem;
+  position: relative;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 37.5rem;
+  font-size: 4rem;
+  line-height: 5rem;
+  color: #000000;
+  z-index: -1;
+}
+
+/* .learning_language_title:hover{
+    color: rgba(38, 50, 56, 0.73);
+    transition: 0.5s ease;
+} */
+
+.main-text_about_language {
+  position: relative;
+}
+
+.light_bulb {
+  position: absolute;
+  top: 6.1rem;
+  left: 25rem;
+  z-index: -1;
+}
+
+.Card-image {
+  width: 41.3rem;
+  height: 41.3rem;
+}
+
+.learning_language_paragraph {
+  width: 39.5rem;
+  height: 6.75rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 25rem;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  line-height: 2.2rem;
+  color: #8f95a5;
+}
+
+.get_started_link {
+  padding: 1.75rem 6.8rem;
+  text-decoration: none;
+  background: #263238;
+  border-radius: 0.9rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 25rem;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  color: #ffffff;
+}
+
+.get_started_link_href {
+  margin-top: 3.1rem;
+}
+
+.get_started_link:hover {
+  background-color: #f5f5f5;
+  border: 00.125rem solid #000000;
+  transition: 1s ease;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* /hero_language_section */
+
+/* skills_section */
+.skills {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.skills_item {
+  width: 27.1rem;
+  background: #f5f5f5;
+  border-radius: 0.6rem;
+}
+
+.skill_left {
+  padding: 5.5rem 2.8rem 0;
+}
+
+.skill_right_left {
+  padding: 0.3rem 2.6rem 2.75rem;
+}
+
+.skill_right_right {
+  padding: 1.4rem 2.6rem 2.75rem;
+}
+
+.skills_right_top {
+  display: flex;
+  gap: 1.1rem;
+  margin-bottom: 1.1rem;
+}
+
+.skills_right_bottom {
+  background: #f5f5f5;
+  align-items: center;
+  border-radius: 0.6rem;
+  padding: 1rem 2.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills_item_content {
+  width: 21.6rem;
+}
+
+.skills_main_heading {
+  width: 7.75rem;
+  height: 5rem;
+  margin: 0 auto;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 37.5rem;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #000000;
+}
+
+.skills_container,
+.content_reading {
+  margin-top: 1.8rem;
+}
+
+.skills {
+  margin-top: 6rem;
+}
+
+.skills_main_desc,
+.skills_main_desc_reading {
+  width: 7rem;
+  /* height: 4rem; */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 37rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #263238;
+}
+
+.skills_main_paragraph {
+  width: 21rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #8f95a5;
+}
+
+.skills_section_link_speaking {
+  margin-top: 3.25rem;
+}
+
+.get_started_link_btn_speaking {
+  padding: 1rem 3.9rem;
+  background: #263238;
+  border-radius: 0.3rem;
+  width: 7.1rem;
+  height: 1.8rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 31rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  line-height: 1.8rem;
+  color: #ffffff;
+}
+
+.get_started_link_btn_speaking:hover {
+  background-color: #f5f5f5;
+  border: 00.125rem solid #000000;
+  transition: 1s ease;
+  color: rgba(0, 0, 0, 1);
+}
+
+.get_started_link_btn_writing {
+  padding: 0.9rem 3.1rem;
+  text-decoration: none;
+  background: #263238;
+  border-radius: 0.3rem;
+  width: 7.1rem;
+  height: 1.8rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 31.2rem;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+}
+
+.get_started_link_btn_writing:hover {
+  background-color: #f5f5f5;
+  border: 00.125rem solid #000000;
+  transition: 1s ease;
+  color: rgba(0, 0, 0, 1);
+}
+
+.get_started_link_btn_reading {
+  padding: 0.9rem 3.1rem;
+  text-decoration: none;
+  background: #263238;
+  border-radius: 0.3rem;
+  width: 7.1rem;
+  height: 1.8rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 31.2rem;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+}
+
+.skills_section_link_reading {
+  margin-top: 0.6rem;
+}
+
+.get_started_link_btn_reading:hover {
+  background-color: #f5f5f5;
+  border: 00.125rem solid #000000;
+  transition: 1s ease;
+  color: rgba(0, 0, 0, 1);
+}
+
+.get_started_link_btn_listening {
+  padding: 0.9rem 3.1rem;
+  text-decoration: none;
+  background: #263238;
+  border-radius: 0.3rem;
+  width: 7.1rem;
+  height: 1.8rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 31.2rem;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+}
+
+.get_started_link_btn_listening:hover {
+  background-color: #f5f5f5;
+  border: 00.125rem solid #000000;
+  transition: 1s ease;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* about us_section */
+
+.about_section {
+  margin-top: 15.7rem;
+}
+
+.about_us_title {
+  width: 13.6rem;
+  height: 5rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 37.5rem;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #000000;
+}
+
+.about_us_title:hover {
+  color: rgba(38, 50, 56, 0.73);
+  transition: 0.5s ease;
+}
+
+.about_us_paragraph {
+  width: 39.6rem;
+  margin-top: 0.6rem;
+  height: 15rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 25rem;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  color: #8f95a5;
+}
+
+.about_us_section_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_us_numeric_section_numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_us_numeric_section_digit {
+  width: 5.8rem;
+  height: 5rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 37.5rem;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #2a3246;
+}
+
+.about_us_numeric_section_people {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 25rem;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  color: #8f95a5;
+}
+
+/* /about us_section */
+
+/* pricing_section */
+
+.tutorial_price_section_month {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tutorial_price_section_course_general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.8rem;
+  margin: 0.6rem;
+  gap: 0.6rem;
+}
+
+.price_section {
+  margin-top: 6.2rem;
+}
+
+.pricing_main_title {
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 37rem;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #000000;
+}
+
+.pricing_main_title:hover {
+  color: rgba(38, 50, 56, 0.73);
+  transition: 0.5s ease;
+}
+
+.online_courses_title {
+  width: 23.2rem;
+  height: 3rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 37.5rem;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: #263238;
+}
+
+.online_courses_paragraph {
+  height: 5.6rem;
+  margin-top: 0.6rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 25rem;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  color: #8f95a5;
+}
+
+.tutorial_price_section_items_price {
+  margin-top: 1.25rem;
+}
+
+.self_study {
+  margin-top: 3.1rem;
+}
+
+.live_class {
+  margin-top: 4.3rem;
+}
+
+.tutorial_price_section_month {
+  width: 21.8rem;
+  height: 2.1rem;
+  background: #eeeeee;
+  border-radius: 0.3rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 25rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #263238;
+  padding: 1.8rem;
+}
+
+/* pricing_section */
+
+/* contact_section */
+
+.contact_section {
+  margin-bottom: 10rem;
+}
+
+.contact_item_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-left: 1.25rem;
+  margin-top: 1.8rem;
+}
+
+.contact_item_box_card_title {
+  width: 16.8rem;
+  height: 5rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 37.5rem;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #000000;
+}
+
+.contact_item_box_card_title:hover {
+  color: rgba(38, 50, 56, 0.73);
+  transition: 0.5s ease;
+}
+
+.contact_item_box_card_desc {
+  width: 48.5rem;
+  height: 3.7rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 25rem;
+  margin-top: 1.25rem;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  color: #8f95a5;
+}
+
+.contact_item_box_card_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.2rem;
+}
+
+.form_input {
+  width: 21.8rem;
+  height: 4.3rem;
+  border: 0.063rem solid #8f95a5;
+  border-radius: 0.6rem;
+  padding: 1.25rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #8f95a5;
+}
+
+.submit_subscribe {
+  padding: 1.25rem 5rem;
+  margin: 0.6rem;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 31.2rem;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+  background: #263238;
+  border-radius: 0.6rem;
+}
+
+.submit_subscribe:hover {
+  background-color: #f5f5f5;
+  border: 00.125rem solid #000000;
+  transition: 1s ease;
+  color: rgba(0, 0, 0, 1);
+}
+
+.form_input:hover {
+  background: #263238;
+  border: 0.125rem solid #000000;
+  border-radius: 0.313rem;
+  transition: 1s ease;
+  color: #ffffff;
+}
+
+.form_input {
+  color: #f5f5f5;
+}
+
+.last_hr_section {
+  width: 83.75rem;
+  background: #c4c4c4;
+  margin: 0 auto;
+}
+
+/* contact_section */
+
+/* footer_section */
+
+.footer_inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.25rem;
+}
+
+.footer_right_lists {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.1rem;
+}
+
+.footer_terms {
+  list-style: none;
+}
+
+.footer__item {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 18.7rem;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #8f95a5;
+}
+
+.footer__item:hover {
+  color: #263238;
+  transition: 0.5s ease;
+}
